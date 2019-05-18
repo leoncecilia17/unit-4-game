@@ -27,6 +27,36 @@ header {
     line-height: 30px;
 }
 
+.randomnumber {
+    border-width: 3px; 
+    border-color: black; 
+    border-style: solid; 
+    color: black; 
+    background-color: orange; 
+    width: 20%; 
+    height: 80px; 
+    font-size: 34px; 
+    padding: 1px; 
+    margin: 10px; 
+}
+
+.clearfix {
+    clear:both;
+}
+
+.scoretracker {
+    border-width: 3px; 
+    border-color: black; 
+    border-style: solid; 
+    color: black; 
+    background-color: lightcoral; 
+    width: 7%; 
+    height: 80px; 
+    font-size: 34px; 
+    padding: 1px; 
+    margin: 10px; 
+}
+
 .scorelabel {
     border-width: 3px; 
     border-color: black; 
@@ -38,3 +68,4 @@ header {
     padding: 1px; 
     margin: 10px; 
 }
+
