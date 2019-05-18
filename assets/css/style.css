@@ -39,22 +39,20 @@ header {
     padding: 1px; 
     margin: 10px; 
 }
-
-.clearfix {
-    clear:both;
+.flex_container{
+    display: flex;
 }
-
 .scoretracker {
     border-width: 3px; 
     border-color: black; 
     border-style: solid; 
     color: black; 
     background-color: lightcoral; 
-    width: 7%; 
+    width: 20%; 
     height: 80px; 
-    font-size: 34px; 
+    font-size: 15px; 
     padding: 1px; 
-    margin: 10px; 
+    margin: 10px;
 }
 
 .scorelabel {
@@ -67,5 +65,23 @@ header {
     font-size: 17px; 
     padding: 1px; 
     margin: 10px; 
+}
+
+.resultsum {
+    border-width: 3px; 
+    border-color: black; 
+    border-style: solid; 
+    color: black; 
+    background-color: papayawhip; 
+    width: 20%;
+    height: 70px; 
+    font-size: 17px; 
+    padding: 1px; 
+    margin: 10px;
+}
+
+img {
+    width: 100px; 
+    height: 100px; 
 }
 
