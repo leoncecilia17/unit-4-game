@@ -13,7 +13,7 @@ $(document).ready(function () {
         totalstore = 0;    
         $(".total").text(totalstore)
         for (var i = 0; i < 4; i++) {
-            var berryrandomvalue = Math.ceil(Math.random() * 12)
+            var berryrandomvalue = Math.ceil(Math.random() * 12); 
             $("#" + i).data("number", berryrandomvalue) 
         }
     }
