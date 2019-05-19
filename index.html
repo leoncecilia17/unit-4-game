@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,48 +11,52 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
+
 <body>
 
     <header>Berry Collector!</header>
 
-    <div class = "instructions">
+    <div class="instructions">
         <p>You will be given a random number at the start of the game.</p>
-        <p>There are four berries below. By clicking on a berry, you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p>There are four berries below. By clicking on a berry, you will add a specific amount of points to your total
+            score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total score
+            goes above the random number.</p>
         <p>The value of each berry is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the value of each berry.</p>
+        <p>Each time the game starts, the game will change the value of each berry.</p>
         <hr>
         <p>Let's play!</p>
     </div>
 
-   <div class="flex_container">
-        <div class = "randomnumber"></div>
+    <div class="flex_container">
+        <div class="randomnumber"></div>
 
-    <div class = "scoretracker">
-        <p><span id = "results"></span></p>
-        <p>Wins: <span id = "wins">0</span></p>
-        <p>Losses: <span id = "losses">0</span></p>
-    </div>
-   </div>
-
-    <div class = "images">
-        <img data-number = "0" id = "0" class = "fruits" src="assets/images/strawberry.png">
-        <img data-number = "0" id = "1" class = "fruits" src="assets/images/raspberry.jpg">
-        <img data-number = "0" id = "2" class = "fruits" src="assets/images/blueberry.jpg">
-        <img data-number = "0" id = "3" class = "fruits" src="./assets/images/blackberry.jpg">
+        <div class="scoretracker">
+            <p><span id="results"></span></p>
+            <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+        </div>
     </div>
 
-    <div class = "scorelabel">
+    <div class="images">
+        <img data-number="0" id="0" class="fruits" src="assets/images/strawberry.png">
+        <img data-number="0" id="1" class="fruits" src="assets/images/raspberry.jpg">
+        <img data-number="0" id="2" class="fruits" src="assets/images/blueberry.jpg">
+        <img data-number="0" id="3" class="fruits" src="./assets/images/blackberry.jpg">
+    </div>
+
+    <div class="scorelabel">
         <p>You total score is:</p>
     </div>
 
-    <div class = "resultsum">
-        <h1 class = "total"></h1>
+    <div class="resultsum">
+        <h1 class="total"></h1>
     </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
-    
+
 </body>
+
 </html>

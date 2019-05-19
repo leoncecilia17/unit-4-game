@@ -3,85 +3,97 @@ body {
 }
 
 header {
-    border-width: 5px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color:lightcoral; 
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color: lightcoral;
     width: 30%;
-    font-size: 50px; 
-    padding: 2px; 
+    font-size: 50px;
+    padding: 2px;
     margin: 10px;
 }
 
 .instructions {
-    border-width: 3px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color: lightpink; 
-    width: 50%; 
-    font-size: 17px; 
-    padding: 2px; 
-    margin: 10px; 
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color: lightpink;
+    width: 70%;
+    font-size: 17px;
+    padding: 2px;
+    margin: 10px;
     line-height: 30px;
 }
 
-.randomnumber {
-    border-width: 3px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color: orange; 
-    width: 20%; 
-    height: 80px; 
-    font-size: 34px; 
-    padding: 1px; 
-    margin: 10px; 
-}
-.flex_container{
+.flex_container {
     display: flex;
 }
-.scoretracker {
-    border-width: 3px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color: lightcoral; 
-    width: 20%; 
-    height: 80px; 
-    font-size: 15px; 
-    padding: 1px; 
+
+.randomnumber {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color: orange;
+    width: 15%;
+    height: 80px;
+    font-size: 40px;
+    padding: 1px;
     margin: 10px;
+    text-align: center; 
 }
 
-.scorelabel {
-    border-width: 3px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color: papayawhip; 
-    width: 20%; 
-    font-size: 17px; 
-    padding: 1px; 
-    margin: 10px; 
-}
-
-.resultsum {
-    border-width: 3px; 
-    border-color: black; 
-    border-style: solid; 
-    color: black; 
-    background-color: papayawhip; 
-    width: 20%;
-    height: 70px; 
-    font-size: 17px; 
-    padding: 1px; 
+.scoretracker {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color: lightcoral;
+    width: 15%;
+    height: 80px;
+    font-size: 25px;
+    padding: 1px;
     margin: 10px;
 }
 
 img {
-    width: 100px; 
-    height: 100px; 
+    width:  130px;
+    height: 130px;
+    border-width: 5px; 
+    border-color: black; 
+    border-style: solid; 
+}
+
+.images {
+    margin: 10px; 
+}
+
+.scorelabel {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color: papayawhip;
+    width: 20%;
+    font-size: 17px;
+    padding: 1px;
+    margin: 10px;
+    font-size: 20px; 
+}
+
+.resultsum {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background-color:lightcoral;
+    width: 20%;
+    height: 70px;
+    font-size: 40px;
+    padding: 1px;
+    margin: 10px;
+    text-align: center; 
 }
 
